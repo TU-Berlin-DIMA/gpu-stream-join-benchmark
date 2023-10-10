@@ -1,0 +1,12 @@
+algTypes: [ "NLJ" ] # "NLJ" | "HJ" | "SMJ"
+deviceTypes: [ "GPU" ] # "CPU" |"GPU"
+progressivenessModes: [ "EAGER" ] # "EAGER" |"LAZY"
+distinctKeys: [ 1000 ] # Number of distinct keys in each streams
+zipfThetas: [ 0.0 ] # Zipf theta parameter
+resultMaterializationMethod: [ "NoOutput" ] # "CountKernel" | "EstimatedSelectivity" | "Bitmap" | "Atomic"
+windowSizesMB: [1, 2, 4 ] # Window sizes in Megabyte(s)
+batchSizeKB: [ 128 ] # Batch sizes in Kilobyte(s)
+measuredMetric: "Throughput"  # "Throughput" | "cumulativePercentage"
+measurePowerUsage: "No"  # "Yes" | "No"
+repeat: 5 # number of runs per configuration
+parStrats: [ "INTRA" ] # "INTER" |"INTRA" | "HYBRID"

@@ -1,0 +1,17 @@
+add_source_files(sjb
+        GPU_HJ.cu
+        GPU_HJ_EstimatedSelectivity.cu
+        GPU_HJ_NoOutput.cu
+        GPU_HJ_CountKernel.cu
+        GPU_HJ_Atomic.cu
+        GPU_SMJ.cu
+        GPU_SMJ_NoOutput.cu
+        GPU_SMJ_CountKernel.cu
+        GPU_SMJ_EstimatedSelectivity.cu
+        GPU_SMJ_Atomic.cu
+        GPU_NLJ.cu
+        GPU_NLJ_NoOutput.cu
+        GPU_NLJ_CountKernel.cu
+        GPU_NLJ_EstimatedSelectivity.cu
+        GPU_NLJ_Bitmap.cu
+        )
